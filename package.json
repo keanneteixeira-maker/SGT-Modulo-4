@@ -1,0 +1,27 @@
+{
+  "name": "tarefas-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aplicação didática Vue.js para controle de tarefas, com Vuex, Vue Router, Axios e Docker.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint . --ext .vue,.js --fix"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "axios": "latest",
+    "vite": "latest",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vuex": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "eslint-plugin-vue": "latest",
+    "globals": "latest"
+  }
+}
