@@ -1,0 +1,13 @@
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0f172a;
+  --surface: #1e293b;
+  --surface-soft: #273449;
+  --text: #f8fafc;
+  --muted: #cbd5e1;
+  --border: #475569;
+  --shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+:root[data-theme="dark"] .status-pendente { color: #fde68a; background: #78350f; }
+:root[data-theme="dark"] .status-em-andamento { color: #bfdbfe; background: #1e40af; }
+:root[data-theme="dark"] .status-concluida { color: #bbf7d0; background: #14532d; }
